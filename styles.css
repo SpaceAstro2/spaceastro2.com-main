@@ -1,0 +1,258 @@
+body {
+    margin: 0em;
+    padding: 0em;
+    text-align: center;
+    background-color: #350956;
+}
+
+header {
+    background-color: #D83F31;
+    padding: 0.3em;
+    text-align: start;
+    width: 100%;
+}
+
+main {
+    margin: 0em;
+    padding-top: 5em;
+}
+
+footer {
+    background-color: #D83F31;
+    padding: 0.2em;
+    text-align:start;
+    width: 100%;
+}
+
+footer p {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0em;
+    margin: 0.5em;
+}
+
+
+p {
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+b {
+    background-color: #D83F31;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* Sections */
+
+#section1 button {
+    background-color: #7D0E5E;
+    color: #ffffff;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    border: none;
+    border-top-right-radius: 10em;
+    border-bottom-right-radius: 10em;
+}
+
+#section1 button:active {
+    background-color: #A42381;
+}
+
+#section2 {
+    background-color: #D83F31;
+}
+
+#section3 {
+    background-color: #FF8F04;
+}
+
+#section4 {
+    background-color: #FFC700;
+}
+
+/* Other stuff */
+
+.breakpoint {
+    margin: 5em;
+    margin-bottom: 1em;
+}
+
+#searchbar {
+    border: 0.2em solid #7D0E5E;
+    border-radius: 20em;
+    padding: 0.2em;
+    padding-left: 1em;
+    width: 20em;
+    height: 2em;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+#spaceastrohomemenu {
+    width: 14em;
+    padding-top: 0.1em;
+    padding-left: 1em;
+    padding-bottom: 0.2em;
+}
+
+#spaceastrologo {
+    width: 10em;
+    border-radius: 50%;
+    padding: 3em;
+}
+
+#spaceastrotitle {
+    width: 20em;
+    border-radius: 1em;
+}
+
+#headerList {
+    float: right;
+    list-style-type: none;
+    padding-right: 1em;
+}
+
+#headerList > li {
+    display: inline;
+    padding: 0.5em;
+}
+
+/* magnifying glass */
+
+.fa-solid.fa-magnifying-glass {
+    color: #FFD80A;
+    font-size: x-large;
+    float: right;
+    padding: 0.8em;
+}
+
+/* Discord */
+
+.fa-brands.fa-discord {
+    color: #FFD80A;
+    font-size: x-large;
+}
+
+.fa-brands.fa-discord:hover {
+    color: #14085B;
+}
+
+/* Pinterest */
+
+.fa-brands.fa-pinterest {
+    color: #FFD80A;
+    font-size: x-large;
+}
+
+.fa-brands.fa-pinterest:hover {
+    color: #14085B;
+}
+
+/* Youtube */
+
+.fa-brands.fa-youtube {
+    color: #FFD80A;
+    font-size: x-large;    
+}
+
+.fa-brands.fa-youtube:hover {
+    color: #14085B;
+}
+
+/* Github */
+
+.fa-brands.fa-github {
+    color: #FFD80A;
+    font-size: x-large;
+    border-radius: 50%;
+}
+
+.fa-brands.fa-github:hover {
+    color: #14085B;
+}
+
+/* media queries */
+
+/* Desktop */
+
+@media (min-width: 600px) {
+    #spaceastrologo {
+        width: 16em;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+    #spaceastrologo {
+        width: 12em;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    header {
+        width: 100%;
+        height: 7%;
+    }
+
+    main {
+        padding-top: 4em;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+    #SpaceAstroHomeMenu {
+        width: 10em;
+    }
+
+    #spaceastrologo {
+        width: 12em;
+    }
+
+    #searchbar {
+        margin-top: 2em;
+        width: 15em;
+        height: 2em;
+    }
+
+    #headerList {
+        padding: 0em;
+        padding-right: 0.5em;
+    }
+
+
+}
+
+
+
+/* this indicates that the website is still in development
+   which is not done yet to be considered finished */
+#stillDevelopment {
+    font-size: medium;
+    background-color: #FF8F04;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#contact {
+    text-decoration:underline;
+}
